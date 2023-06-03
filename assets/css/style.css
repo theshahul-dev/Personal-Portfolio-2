@@ -48,12 +48,33 @@
     padding: .2rem .5rem;
     background-color: rgba(33, 33, 33, .74);
     border: 1px solid rgba(255, 255, 255, .1);
-    color: rgb(179, 179, 179);
     border-radius: 10px;
+    white-space: nowrap;
     display: none;
+    color: rgba(255, 255, 255, .1);
 }
-.active{
+.nav-item:hover .icon-text{
     display: block;
+}
+
+.home:hover{
+    background-color: rgb(246, 152, 81);
+    border-color: rgb(246, 152, 81);}
+.projects:hover{
+    background-color: rgb(154, 99, 245);
+    border-color:  rgb(154, 99, 245);
+}
+.about:hover{
+    background-color: rgb(238, 114, 113);
+    border-color: rgb(238, 114, 113);
+}
+.mail:hover{
+    background-color: rgb(105, 204, 122);
+    border-color:  rgb(105, 204, 122);
+}
+.code:hover{
+    background-color: rgb(88, 190, 254);
+    border-color: rgb(88, 190, 254) ;
 }
 
 .nav-item-line {
@@ -63,5 +84,5 @@
 
 .nav-item i {
     color: transparent;
-    -webkit-text-stroke: 1px  rgb(179, 179, 179);
+    -webkit-text-stroke: 1px  #ffff;
 }
