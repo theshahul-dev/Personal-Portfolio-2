@@ -3,6 +3,7 @@
 .landing-page {
     height: 100vh;
     width: 100%;
+    /* background-color: rgb(16, 16, 16); */
     background-image: linear-gradient(to right bottom, #300707, #290709, #23050a, #1c0409, #130206, #120303, #100302, #0e0401, #130800, #140e00, #111300, #071803);
 
 }
