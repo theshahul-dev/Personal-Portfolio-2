@@ -1,0 +1,87 @@
+@import url('utils.css');
+
+#bottom-nav {
+    position: absolute;
+    bottom: 1.5rem;
+    background-color: var(--background-navbar);
+    border: 1px solid var(--border-navbar);
+    border-radius: 1.1rem;
+    padding: .7rem;
+}
+
+.nav-item-container {
+    list-style: none;
+    gap: 1rem;
+}
+
+.nav-item {
+    padding: .7rem .8rem;
+    border: 1.8px solid var(--navbar-item-border);
+    border-radius: 12px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.04),
+        0px 2px 8px 0px rgba(0, 0, 0, 0.04);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-text {
+    position: absolute;
+    top: -50px;
+    font-size: .9rem;
+    padding: .2rem .5rem;
+    background-color: var(--navbar-icon-text-background);
+    border: 1px solid var(--navbar-icon-text-border);
+    border-radius: 10px;
+    white-space: nowrap;
+    display: none;
+    color: var(--navbar-icon-text-color);
+}
+
+.active-line {
+    position: absolute;
+    bottom: -7px;
+    width: 15px;
+    border-color: var(--navbar-active-line-color-item-line);
+}
+
+.nav-item:hover .icon-text {
+    display: block;
+}
+
+.home:hover {
+    background-color: rgb(246, 152, 81);
+    border-color: rgb(246, 152, 81);
+}
+
+.projects:hover {
+    background-color: rgb(154, 99, 245);
+    border-color: rgb(154, 99, 245);
+}
+
+.about:hover {
+    background-color: rgb(238, 114, 113);
+    border-color: rgb(238, 114, 113);
+}
+
+.mail:hover {
+    background-color: rgb(105, 204, 122);
+    border-color: rgb(105, 204, 122);
+}
+
+.code:hover {
+    background-color: rgb(88, 190, 254);
+    border-color: rgb(88, 190, 254);
+}
+
+.nav-item-line {
+    height: 25px;
+    border: 1px solid var(--navbar-active-line-color-item-line);
+}
+
+.nav-item i {
+    color: transparent;
+    -webkit-text-stroke: 1px #ffff;
+}

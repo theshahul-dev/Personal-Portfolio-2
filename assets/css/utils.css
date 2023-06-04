@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+
 :root {
     --background-primary: #101010;
     --background-navbar: rgba(33, 33, 33, .74);
@@ -5,9 +7,15 @@
     --navbar-item-border: rgba(255, 255, 255, .1);
     --navbar-icon-text-background: rgba(33, 33, 33, .74);
     --navbar-icon-text-border: rgba(255, 255, 255, .1);
-    --navbar-icon-text-color:rgba(255, 255, 255, 0.436);
-    --navbar-active-line-color-item-line:rgba(255, 255, 255, .1);
+    --navbar-icon-text-color: rgba(255, 255, 255, 0.436);
+    --navbar-active-line-color-item-line: rgba(255, 255, 255, .1);
 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .d-flex {
