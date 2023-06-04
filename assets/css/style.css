@@ -19,6 +19,8 @@
     background-color: #101010a3;
     width: 100%;
     height: 100%;
+    position: relative;
+    backdrop-filter: blur(10px);
 }
 
 
@@ -32,6 +34,9 @@
     border: 1px solid var(--border-navbar);
     line-height: 4rem;
     font-size: 1rem;
+    position: absolute;
+    z-index: 1;
+    backdrop-filter: blur(5px);
 }
 
 .landing-page-content h1 span {
@@ -49,6 +54,99 @@
 
 .landing-page-content h1:nth-child(3)>span {
     background-color: rgb(105, 204, 122);
+}
+
+
+
+.project-collections-container {
+    width: 420px;
+    height: 230px;
+    background-color: rgba(102, 51, 153, 0);
+    position: absolute;
+}
+
+.project-collections-container .project-container {
+    width: 90px;
+    height: 90px;
+    border-radius: .5rem;
+    transition: opacity 0.4s ease-in-out, transform 0.2s ease-in-out, top 0.2s ease-in-out, left 0.2s ease-in-out, right 0.2s ease-in-out, bottom 0.2s ease-in-out;
+    opacity: 0;
+}
+.project-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.project-collections-container .project-container:nth-child(1) {
+    background-color: rgb(105, 204, 122);
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+
+.project-collections-container .project-container:nth-child(2) {
+    background-color: rgb(88, 190, 254);
+    position: absolute;
+    top: 0;
+    right: 2rem;
+
+}
+
+.project-collections-container .project-container:nth-child(3) {
+    background-color: rgb(238, 114, 113);
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+
+}
+
+.project-collections-container .project-container:nth-child(4) {
+    background-color: rgb(154, 99, 245);
+    position: absolute;
+    bottom: 0;
+    right: 8rem;
+
+}
+
+.project-collections-container .project-container:nth-child(5) {
+    background-color: rosybrown;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.landing-page-content:hover~.project-collections-container .project-container {
+    opacity: 1;
+}
+
+.landing-page-content:hover~.project-collections-container .project-container:nth-child(1) {
+    transform: rotate(-8deg) scale(2);
+    top: -5rem;
+    left: -3rem;
+}
+
+.landing-page-content:hover~.project-collections-container .project-container:nth-child(2) {
+    transform: rotate(8deg) scale(2);
+    top: -7rem;
+    right: -3rem;
+}
+
+.landing-page-content:hover~.project-collections-container .project-container:nth-child(3) {
+    transform: rotate(30deg) scale(2);
+    right: -4rem;
+}
+
+.landing-page-content:hover~.project-collections-container .project-container:nth-child(4) {
+    transform: rotate(-10deg) scale(2);
+    bottom: -8rem;
+}
+
+.landing-page-content:hover~.project-collections-container .project-container:nth-child(5) {
+    transform: rotate(5deg) scale(2);
+    left: -5rem;
+    bottom: -4rem;
+
 }
 
 
