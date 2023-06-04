@@ -3,14 +3,14 @@
 .landing-page {
     height: 100vh;
     width: 100%;
-    /* background-color: rgb(16, 16, 16); */
-    background-image: linear-gradient(to right bottom, #300707, #290709, #23050a, #1c0409, #130206, #120303, #100302, #0e0401, #130800, #140e00, #111300, #071803);
+    background-color: rgb(16, 16, 16);
+    /* background-image: linear-gradient(to right bottom, #300707, #290709, #23050a, #1c0409, #130206, #120303, #100302, #0e0401, #130800, #140e00, #111300, #071803); */
 
 }
 
 .landing-page-container {
     /* background-color: var(--background-primary); */
-    background-color: #101010a3;
+    /* background-color: #101010a3; */
     width: 100%;
     height: 100%;
     position: relative;
