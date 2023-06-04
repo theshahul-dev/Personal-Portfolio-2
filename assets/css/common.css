@@ -45,7 +45,8 @@
     border: 1px solid var(--navbar-icon-text-border);
     border-radius: 10px;
     white-space: nowrap;
-    opacity: 0;
+    /* opacity: 0; */
+    display: none;
     color: var(--navbar-icon-text-color);
 
 }
@@ -58,7 +59,8 @@
 }
 
 .nav-item:hover .icon-text {
-    opacity: 1;
+    /* opacity: 1; */
+    display: block;
 }
 
 .home:hover {
