@@ -13,9 +13,15 @@
     list-style: none;
     gap: 1rem;
 }
+.nav-item-container a{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    font-size: inherit;
+}
 
 .nav-item {
-    padding: .7rem .8rem;
+    padding: .7rem .9rem;
     border: 1.8px solid var(--navbar-item-border);
     border-radius: 12px;
     font-size: 1.1rem;
@@ -84,4 +90,14 @@
 .nav-item i {
     color: transparent;
     -webkit-text-stroke: 1px #ffff;
+}
+
+.home-active{
+    background-color: rgb(246, 152, 81);
+}
+.project-active{
+    background-color: rgb(154, 99, 245);
+}
+.about-active{
+    background-color: rgb(238, 114, 113);
 }

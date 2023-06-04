@@ -6,6 +6,7 @@
     background-image: linear-gradient(to right bottom, #300707, #290709, #23050a, #1c0409, #130206, #120303, #100302, #0e0401, #130800, #140e00, #111300, #071803);
 
 }
+
 .landing-page-container {
     /* background-color: var(--background-primary); */
     background-color: #101010a3;
@@ -28,11 +29,17 @@
     position: absolute;
     z-index: 1;
     backdrop-filter: blur(5px);
+    cursor: default;
 }
 
 .landing-page-content h1 span {
     padding: .3rem .5rem;
     border-radius: 1rem;
+}
+
+.landing-page-content h1::selection,
+.landing-page-content h1 span::selection {
+    display: none;
 }
 
 .landing-page-content h1:nth-child(1)>span {
