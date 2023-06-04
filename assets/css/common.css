@@ -13,7 +13,8 @@
     list-style: none;
     gap: 1rem;
 }
-.nav-item-container a{
+
+.nav-item-container a {
     display: flex;
     text-decoration: none;
     justify-content: center;
@@ -42,8 +43,9 @@
     border: 1px solid var(--navbar-icon-text-border);
     border-radius: 10px;
     white-space: nowrap;
-    display: none;
+    opacity: 0;
     color: var(--navbar-icon-text-color);
+
 }
 
 .active-line {
@@ -54,7 +56,7 @@
 }
 
 .nav-item:hover .icon-text {
-    display: block;
+    opacity: 1;
 }
 
 .home:hover {
@@ -92,12 +94,14 @@
     -webkit-text-stroke: 1px #ffff;
 }
 
-.home-active{
+.home-active {
     background-color: rgb(246, 152, 81);
 }
-.project-active{
+
+.project-active {
     background-color: rgb(154, 99, 245);
 }
-.about-active{
+
+.about-active {
     background-color: rgb(238, 114, 113);
 }
