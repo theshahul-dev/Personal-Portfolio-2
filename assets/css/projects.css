@@ -13,6 +13,9 @@ body {
     justify-content: center;
     margin-bottom: 100px;
 }
+.projects-container a{
+    text-decoration: none;
+}
 
 .project-card {
     /* width: 49%; */
