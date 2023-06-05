@@ -1,7 +1,7 @@
 @media screen and (max-width: 600px) {
-    #bottom-nav {
+    /* #bottom-nav {
         width: 80%;
-    }
+    } */
 
     .landing-page-content {
         font-size: .9rem;
@@ -13,10 +13,21 @@
     .project-collections-container{
         display: none;
     } 
-    .project-card-image{
-        height: 300px;
+ 
+
+}
+@media screen and (max-width:815px) {
+   .project-card-image{
+        height: 380px;
     }
+}
+
+@media screen and (max-width:1100px) {
+
     .projects-container{
+        width: 90%;
         grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
     }
+    
 }
