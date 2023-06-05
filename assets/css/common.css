@@ -1,7 +1,7 @@
 @import url('utils.css');
 
 #bottom-nav {
-    position: absolute;
+    position: fixed;
     bottom: 1.5rem;
     background-color: var(--background-navbar);
     border: 1px solid var(--border-navbar);

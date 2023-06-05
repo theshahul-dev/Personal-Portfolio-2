@@ -13,4 +13,10 @@
     .project-collections-container{
         display: none;
     } 
+    .project-card-image{
+        height: 300px;
+    }
+    .projects-container{
+        grid-template-columns: 1fr;
+    }
 }
