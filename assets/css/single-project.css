@@ -16,31 +16,93 @@ body {
     cursor: pointer;
     transition: top .5s ease;
     color: #fff;
+    z-index: 1;
 
 }
 
-#close-btn:hover{
+#close-btn:hover {
     top: 2.5rem;
 }
 
-.single-project{
+.single-project {
     display: flex;
     justify-content: center;
     width: 100%;
     height: 100%;
-    
+
 }
-.single-project-container{
+
+.single-project-container {
     width: 75%;
-    height:1000px;
+    height: 100%;
     margin-top: 5rem;
+    margin-bottom: 7rem;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
+    align-items: center;
+    animation: fadeIn 1s forwards;
 }
-.first-image{
+
+.first-image {
     width: 100%;
-    height: 700px;
+    height: 500px;
     background-image: linear-gradient(to left bottom, #ff4d8c, #ff5893, #fe6399, #fe6da0, #fd76a6);
     border-radius: inherit;
+}
+
+.content {
+    width: 70%;
+    padding: 2rem 0;
+}
+
+.content h1,
+h2 {
+    margin: 1.5rem 0;
+    color: #fff;
+}
+
+.tags {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.tags p {
+    background-color: rgb(38, 38, 38);
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+}
+
+.content p {
+    font-size: 16px;
+    color: rgb(179, 179, 179);
+}
+
+.project-images {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-images>div {
+    border-radius: inherit;
+    background-image: linear-gradient(to left bottom, #ff4d8c, #ff5893, #fe6399, #fe6da0, #fd76a6);
+}
+.project-images .image-one{
+    height: 350px;
+    max-width: 100%;
+    flex: 100%;
+}
+.project-images .image-two,.project-images .image-three{
+    height: 300px;
+    max-width: 50%;
+    flex: 25%;
+    vertical-align: middle;
 }

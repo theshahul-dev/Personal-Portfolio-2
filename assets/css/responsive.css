@@ -2,7 +2,15 @@
     /* #bottom-nav {
         width: 80%;
     } */
-
+    .single-project-container{
+        width: 90%;
+    }
+    .single-project-container .content{
+        width: 100%;
+    }
+    .first-image{
+        height: 350px;
+    }
     .landing-page-content {
         font-size: .9rem;
         width: 80%;
@@ -13,6 +21,15 @@
     .project-collections-container{
         display: none;
     } 
+    .project-images .image-one{
+        height: 300px;
+
+    }
+    .project-images .image-two,.project-images .image-three{
+        height: 300px;
+        max-width: 100%;
+        flex: 100%;
+    }
  
 
 }
