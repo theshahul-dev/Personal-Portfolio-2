@@ -46,6 +46,12 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
     }
+    .about-section{
+        width: 90%;
+    }
+    .about-section-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
     
 }
 

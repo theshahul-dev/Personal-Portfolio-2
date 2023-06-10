@@ -1,1 +1,85 @@
 @import url('utils.css');
+
+body {
+    background-color: rgb(16, 16, 16);
+    color: #f5f5f5;
+}
+
+
+.about-section {
+    width: 75%;
+    height: 100%;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 6.5rem;
+
+}
+
+.about-section-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.about-left {
+    width: 100%;
+    /* height: 700px; */
+    border-radius: 1rem;
+    background-color: rgba(33, 33, 33, .74);
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.about-left p,
+.about-right p {
+    font-size: .9rem;
+}
+
+.about-left .about-left-content>h2 {
+    margin-bottom: 10px;
+}
+
+.about-left-img {
+    height: 400px;
+    background-image: linear-gradient(to left bottom, #ff4d8c, #ff5893, #fe6399, #fe6da0, #fd76a6);
+    border-radius: 1rem;
+    margin-bottom: 20px;
+}
+
+.tags {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+
+.tags i {
+    margin-right: 3px;
+}
+
+.tags p {
+    background-color: rgb(38, 38, 38);
+    border: 1px solid rgba(255, 255, 255, .1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(179, 179, 179);
+    font-size: 13px;
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-me,
+.experience,
+.skills,
+.software-choice,
+.say-hi {
+    padding: 2rem;
+    background-color: rgba(33, 33, 33, .74);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 1rem;
+
+}
