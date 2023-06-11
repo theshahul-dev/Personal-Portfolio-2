@@ -52,10 +52,15 @@
     .about-section-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .about-left{
+        height: 100%;
+        position: relative;
+    }
     
 }
 
 
-@media(prefers-color-scheme:dark){
+/* @media(prefers-color-scheme:dark){
     
-}
+} */
