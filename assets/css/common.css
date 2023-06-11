@@ -95,8 +95,8 @@
 }
 
 .nav-item i {
-    color: transparent;
-    -webkit-text-stroke: 1px #ffff;
+    color: #f5f5f5;
+    /* -webkit-text-stroke: 1px #ffff; */
 }
 
 
